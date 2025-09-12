@@ -127066,13 +127066,13 @@
             {
               "type": "number",
               "name": "id",
-              "description": "",
+              "description": "<p>The unique identifier of the project.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "node_id",
-              "description": "",
+              "description": "<p>The node ID of the project.</p>",
               "isRequired": true
             },
             {
@@ -127350,55 +127350,55 @@
             {
               "type": "string",
               "name": "title",
-              "description": "",
+              "description": "<p>The project title.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "description",
-              "description": "",
+              "description": "<p>A short description of the project.</p>",
               "isRequired": true
             },
             {
               "type": "boolean",
               "name": "public",
-              "description": "",
+              "description": "<p>Whether the project is visible to anyone with access to the owner.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "closed_at",
-              "description": "",
+              "description": "<p>The time when the project was closed.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "created_at",
-              "description": "",
+              "description": "<p>The time when the project was created.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "updated_at",
-              "description": "",
+              "description": "<p>The time when the project was last updated.</p>",
               "isRequired": true
             },
             {
               "type": "integer",
               "name": "number",
-              "description": "",
+              "description": "<p>The project number.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "short_description",
-              "description": "",
+              "description": "<p>A concise summary of the project.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "deleted_at",
-              "description": "",
+              "description": "<p>The time when the project was deleted.</p>",
               "isRequired": true
             },
             {
@@ -127540,7 +127540,7 @@
             {
               "type": "string",
               "name": "state",
-              "description": "",
+              "description": "<p>The current state of the project.</p>",
               "enum": [
                 "open",
                 "closed"
@@ -127554,19 +127554,19 @@
                 {
                   "type": "number",
                   "name": "id",
-                  "description": "",
+                  "description": "<p>The unique identifier of the status update.</p>",
                   "isRequired": true
                 },
                 {
                   "type": "string",
                   "name": "node_id",
-                  "description": "",
+                  "description": "<p>The node ID of the status update.</p>",
                   "isRequired": true
                 },
                 {
                   "type": "string",
                   "name": "project_node_id",
-                  "description": ""
+                  "description": "<p>The node ID of the project that this status update belongs to.</p>"
                 },
                 {
                   "type": "object",
@@ -127706,19 +127706,19 @@
                 {
                   "type": "string",
                   "name": "created_at",
-                  "description": "",
+                  "description": "<p>The time when the status update was created.</p>",
                   "isRequired": true
                 },
                 {
                   "type": "string",
                   "name": "updated_at",
-                  "description": "",
+                  "description": "<p>The time when the status update was last updated.</p>",
                   "isRequired": true
                 },
                 {
                   "type": "string or null",
                   "name": "status",
-                  "description": "",
+                  "description": "<p>The current status.</p>",
                   "enum": [
                     "INACTIVE",
                     "ON_TRACK",
@@ -127731,12 +127731,12 @@
                 {
                   "type": "string",
                   "name": "start_date",
-                  "description": ""
+                  "description": "<p>The start date of the period covered by the update.</p>"
                 },
                 {
                   "type": "string",
                   "name": "target_date",
-                  "description": ""
+                  "description": "<p>The target date associated with the update.</p>"
                 },
                 {
                   "type": "string or null",
@@ -127807,13 +127807,13 @@
             {
               "type": "number",
               "name": "id",
-              "description": "",
+              "description": "<p>The unique identifier of the project.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "node_id",
-              "description": "",
+              "description": "<p>The node ID of the project.</p>",
               "isRequired": true
             },
             {
@@ -128091,55 +128091,55 @@
             {
               "type": "string",
               "name": "title",
-              "description": "",
+              "description": "<p>The project title.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "description",
-              "description": "",
+              "description": "<p>A short description of the project.</p>",
               "isRequired": true
             },
             {
               "type": "boolean",
               "name": "public",
-              "description": "",
+              "description": "<p>Whether the project is visible to anyone with access to the owner.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "closed_at",
-              "description": "",
+              "description": "<p>The time when the project was closed.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "created_at",
-              "description": "",
+              "description": "<p>The time when the project was created.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "updated_at",
-              "description": "",
+              "description": "<p>The time when the project was last updated.</p>",
               "isRequired": true
             },
             {
               "type": "integer",
               "name": "number",
-              "description": "",
+              "description": "<p>The project number.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "short_description",
-              "description": "",
+              "description": "<p>A concise summary of the project.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "deleted_at",
-              "description": "",
+              "description": "<p>The time when the project was deleted.</p>",
               "isRequired": true
             },
             {
@@ -128281,7 +128281,7 @@
             {
               "type": "string",
               "name": "state",
-              "description": "",
+              "description": "<p>The current state of the project.</p>",
               "enum": [
                 "open",
                 "closed"
@@ -128295,19 +128295,19 @@
                 {
                   "type": "number",
                   "name": "id",
-                  "description": "",
+                  "description": "<p>The unique identifier of the status update.</p>",
                   "isRequired": true
                 },
                 {
                   "type": "string",
                   "name": "node_id",
-                  "description": "",
+                  "description": "<p>The node ID of the status update.</p>",
                   "isRequired": true
                 },
                 {
                   "type": "string",
                   "name": "project_node_id",
-                  "description": ""
+                  "description": "<p>The node ID of the project that this status update belongs to.</p>"
                 },
                 {
                   "type": "object",
@@ -128447,19 +128447,19 @@
                 {
                   "type": "string",
                   "name": "created_at",
-                  "description": "",
+                  "description": "<p>The time when the status update was created.</p>",
                   "isRequired": true
                 },
                 {
                   "type": "string",
                   "name": "updated_at",
-                  "description": "",
+                  "description": "<p>The time when the status update was last updated.</p>",
                   "isRequired": true
                 },
                 {
                   "type": "string or null",
                   "name": "status",
-                  "description": "",
+                  "description": "<p>The current status.</p>",
                   "enum": [
                     "INACTIVE",
                     "ON_TRACK",
@@ -128472,12 +128472,12 @@
                 {
                   "type": "string",
                   "name": "start_date",
-                  "description": ""
+                  "description": "<p>The start date of the period covered by the update.</p>"
                 },
                 {
                   "type": "string",
                   "name": "target_date",
-                  "description": ""
+                  "description": "<p>The target date associated with the update.</p>"
                 },
                 {
                   "type": "string or null",
@@ -128548,13 +128548,13 @@
             {
               "type": "number",
               "name": "id",
-              "description": "",
+              "description": "<p>The unique identifier of the project.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "node_id",
-              "description": "",
+              "description": "<p>The node ID of the project.</p>",
               "isRequired": true
             },
             {
@@ -128832,55 +128832,55 @@
             {
               "type": "string",
               "name": "title",
-              "description": "",
+              "description": "<p>The project title.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "description",
-              "description": "",
+              "description": "<p>A short description of the project.</p>",
               "isRequired": true
             },
             {
               "type": "boolean",
               "name": "public",
-              "description": "",
+              "description": "<p>Whether the project is visible to anyone with access to the owner.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "closed_at",
-              "description": "",
+              "description": "<p>The time when the project was closed.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "created_at",
-              "description": "",
+              "description": "<p>The time when the project was created.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "updated_at",
-              "description": "",
+              "description": "<p>The time when the project was last updated.</p>",
               "isRequired": true
             },
             {
               "type": "integer",
               "name": "number",
-              "description": "",
+              "description": "<p>The project number.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "short_description",
-              "description": "",
+              "description": "<p>A concise summary of the project.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "deleted_at",
-              "description": "",
+              "description": "<p>The time when the project was deleted.</p>",
               "isRequired": true
             },
             {
@@ -129022,7 +129022,7 @@
             {
               "type": "string",
               "name": "state",
-              "description": "",
+              "description": "<p>The current state of the project.</p>",
               "enum": [
                 "open",
                 "closed"
@@ -129036,19 +129036,19 @@
                 {
                   "type": "number",
                   "name": "id",
-                  "description": "",
+                  "description": "<p>The unique identifier of the status update.</p>",
                   "isRequired": true
                 },
                 {
                   "type": "string",
                   "name": "node_id",
-                  "description": "",
+                  "description": "<p>The node ID of the status update.</p>",
                   "isRequired": true
                 },
                 {
                   "type": "string",
                   "name": "project_node_id",
-                  "description": ""
+                  "description": "<p>The node ID of the project that this status update belongs to.</p>"
                 },
                 {
                   "type": "object",
@@ -129188,19 +129188,19 @@
                 {
                   "type": "string",
                   "name": "created_at",
-                  "description": "",
+                  "description": "<p>The time when the status update was created.</p>",
                   "isRequired": true
                 },
                 {
                   "type": "string",
                   "name": "updated_at",
-                  "description": "",
+                  "description": "<p>The time when the status update was last updated.</p>",
                   "isRequired": true
                 },
                 {
                   "type": "string or null",
                   "name": "status",
-                  "description": "",
+                  "description": "<p>The current status.</p>",
                   "enum": [
                     "INACTIVE",
                     "ON_TRACK",
@@ -129213,12 +129213,12 @@
                 {
                   "type": "string",
                   "name": "start_date",
-                  "description": ""
+                  "description": "<p>The start date of the period covered by the update.</p>"
                 },
                 {
                   "type": "string",
                   "name": "target_date",
-                  "description": ""
+                  "description": "<p>The target date associated with the update.</p>"
                 },
                 {
                   "type": "string or null",
@@ -129366,13 +129366,13 @@
             {
               "type": "number",
               "name": "id",
-              "description": "",
+              "description": "<p>The unique identifier of the project.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "node_id",
-              "description": "",
+              "description": "<p>The node ID of the project.</p>",
               "isRequired": true
             },
             {
@@ -129650,55 +129650,55 @@
             {
               "type": "string",
               "name": "title",
-              "description": "",
+              "description": "<p>The project title.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "description",
-              "description": "",
+              "description": "<p>A short description of the project.</p>",
               "isRequired": true
             },
             {
               "type": "boolean",
               "name": "public",
-              "description": "",
+              "description": "<p>Whether the project is visible to anyone with access to the owner.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "closed_at",
-              "description": "",
+              "description": "<p>The time when the project was closed.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "created_at",
-              "description": "",
+              "description": "<p>The time when the project was created.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "updated_at",
-              "description": "",
+              "description": "<p>The time when the project was last updated.</p>",
               "isRequired": true
             },
             {
               "type": "integer",
               "name": "number",
-              "description": "",
+              "description": "<p>The project number.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "short_description",
-              "description": "",
+              "description": "<p>A concise summary of the project.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "deleted_at",
-              "description": "",
+              "description": "<p>The time when the project was deleted.</p>",
               "isRequired": true
             },
             {
@@ -129840,7 +129840,7 @@
             {
               "type": "string",
               "name": "state",
-              "description": "",
+              "description": "<p>The current state of the project.</p>",
               "enum": [
                 "open",
                 "closed"
@@ -129854,19 +129854,19 @@
                 {
                   "type": "number",
                   "name": "id",
-                  "description": "",
+                  "description": "<p>The unique identifier of the status update.</p>",
                   "isRequired": true
                 },
                 {
                   "type": "string",
                   "name": "node_id",
-                  "description": "",
+                  "description": "<p>The node ID of the status update.</p>",
                   "isRequired": true
                 },
                 {
                   "type": "string",
                   "name": "project_node_id",
-                  "description": ""
+                  "description": "<p>The node ID of the project that this status update belongs to.</p>"
                 },
                 {
                   "type": "object",
@@ -130006,19 +130006,19 @@
                 {
                   "type": "string",
                   "name": "created_at",
-                  "description": "",
+                  "description": "<p>The time when the status update was created.</p>",
                   "isRequired": true
                 },
                 {
                   "type": "string",
                   "name": "updated_at",
-                  "description": "",
+                  "description": "<p>The time when the status update was last updated.</p>",
                   "isRequired": true
                 },
                 {
                   "type": "string or null",
                   "name": "status",
-                  "description": "",
+                  "description": "<p>The current status.</p>",
                   "enum": [
                     "INACTIVE",
                     "ON_TRACK",
@@ -130031,12 +130031,12 @@
                 {
                   "type": "string",
                   "name": "start_date",
-                  "description": ""
+                  "description": "<p>The start date of the period covered by the update.</p>"
                 },
                 {
                   "type": "string",
                   "name": "target_date",
-                  "description": ""
+                  "description": "<p>The target date associated with the update.</p>"
                 },
                 {
                   "type": "string or null",
@@ -130107,13 +130107,13 @@
             {
               "type": "number",
               "name": "id",
-              "description": "",
+              "description": "<p>The unique identifier of the project.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "node_id",
-              "description": "",
+              "description": "<p>The node ID of the project.</p>",
               "isRequired": true
             },
             {
@@ -130391,55 +130391,55 @@
             {
               "type": "string",
               "name": "title",
-              "description": "",
+              "description": "<p>The project title.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "description",
-              "description": "",
+              "description": "<p>A short description of the project.</p>",
               "isRequired": true
             },
             {
               "type": "boolean",
               "name": "public",
-              "description": "",
+              "description": "<p>Whether the project is visible to anyone with access to the owner.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "closed_at",
-              "description": "",
+              "description": "<p>The time when the project was closed.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "created_at",
-              "description": "",
+              "description": "<p>The time when the project was created.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "updated_at",
-              "description": "",
+              "description": "<p>The time when the project was last updated.</p>",
               "isRequired": true
             },
             {
               "type": "integer",
               "name": "number",
-              "description": "",
+              "description": "<p>The project number.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "short_description",
-              "description": "",
+              "description": "<p>A concise summary of the project.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "deleted_at",
-              "description": "",
+              "description": "<p>The time when the project was deleted.</p>",
               "isRequired": true
             },
             {
@@ -130581,7 +130581,7 @@
             {
               "type": "string",
               "name": "state",
-              "description": "",
+              "description": "<p>The current state of the project.</p>",
               "enum": [
                 "open",
                 "closed"
@@ -130595,19 +130595,19 @@
                 {
                   "type": "number",
                   "name": "id",
-                  "description": "",
+                  "description": "<p>The unique identifier of the status update.</p>",
                   "isRequired": true
                 },
                 {
                   "type": "string",
                   "name": "node_id",
-                  "description": "",
+                  "description": "<p>The node ID of the status update.</p>",
                   "isRequired": true
                 },
                 {
                   "type": "string",
                   "name": "project_node_id",
-                  "description": ""
+                  "description": "<p>The node ID of the project that this status update belongs to.</p>"
                 },
                 {
                   "type": "object",
@@ -130747,19 +130747,19 @@
                 {
                   "type": "string",
                   "name": "created_at",
-                  "description": "",
+                  "description": "<p>The time when the status update was created.</p>",
                   "isRequired": true
                 },
                 {
                   "type": "string",
                   "name": "updated_at",
-                  "description": "",
+                  "description": "<p>The time when the status update was last updated.</p>",
                   "isRequired": true
                 },
                 {
                   "type": "string or null",
                   "name": "status",
-                  "description": "",
+                  "description": "<p>The current status.</p>",
                   "enum": [
                     "INACTIVE",
                     "ON_TRACK",
@@ -130772,12 +130772,12 @@
                 {
                   "type": "string",
                   "name": "start_date",
-                  "description": ""
+                  "description": "<p>The start date of the period covered by the update.</p>"
                 },
                 {
                   "type": "string",
                   "name": "target_date",
-                  "description": ""
+                  "description": "<p>The target date associated with the update.</p>"
                 },
                 {
                   "type": "string or null",
@@ -130876,23 +130876,23 @@
             {
               "type": "number",
               "name": "id",
-              "description": "",
+              "description": "<p>The unique identifier of the project item.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "node_id",
-              "description": ""
+              "description": "<p>The node ID of the project item.</p>"
             },
             {
               "type": "string",
               "name": "project_node_id",
-              "description": ""
+              "description": "<p>The node ID of the project that contains this item.</p>"
             },
             {
               "type": "string",
               "name": "content_node_id",
-              "description": "",
+              "description": "<p>The node ID of the content represented by this item.</p>",
               "isRequired": true
             },
             {
@@ -131044,19 +131044,19 @@
             {
               "type": "string",
               "name": "created_at",
-              "description": "",
+              "description": "<p>The time when the item was created.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "updated_at",
-              "description": "",
+              "description": "<p>The time when the item was last updated.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "archived_at",
-              "description": "",
+              "description": "<p>The time when the item was archived.</p>",
               "isRequired": true
             }
           ]
@@ -131142,23 +131142,23 @@
             {
               "type": "number",
               "name": "id",
-              "description": "",
+              "description": "<p>The unique identifier of the project item.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "node_id",
-              "description": ""
+              "description": "<p>The node ID of the project item.</p>"
             },
             {
               "type": "string",
               "name": "project_node_id",
-              "description": ""
+              "description": "<p>The node ID of the project that contains this item.</p>"
             },
             {
               "type": "string",
               "name": "content_node_id",
-              "description": "",
+              "description": "<p>The node ID of the content represented by this item.</p>",
               "isRequired": true
             },
             {
@@ -131310,19 +131310,19 @@
             {
               "type": "string",
               "name": "created_at",
-              "description": "",
+              "description": "<p>The time when the item was created.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "updated_at",
-              "description": "",
+              "description": "<p>The time when the item was last updated.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "archived_at",
-              "description": "",
+              "description": "<p>The time when the item was archived.</p>",
               "isRequired": true
             }
           ]
@@ -131382,23 +131382,23 @@
             {
               "type": "number",
               "name": "id",
-              "description": "",
+              "description": "<p>The unique identifier of the project item.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "node_id",
-              "description": ""
+              "description": "<p>The node ID of the project item.</p>"
             },
             {
               "type": "string",
               "name": "project_node_id",
-              "description": ""
+              "description": "<p>The node ID of the project that contains this item.</p>"
             },
             {
               "type": "string",
               "name": "content_node_id",
-              "description": "",
+              "description": "<p>The node ID of the content represented by this item.</p>",
               "isRequired": true
             },
             {
@@ -131550,19 +131550,19 @@
             {
               "type": "string",
               "name": "created_at",
-              "description": "",
+              "description": "<p>The time when the item was created.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "updated_at",
-              "description": "",
+              "description": "<p>The time when the item was last updated.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "archived_at",
-              "description": "",
+              "description": "<p>The time when the item was archived.</p>",
               "isRequired": true
             }
           ]
@@ -131622,23 +131622,23 @@
             {
               "type": "number",
               "name": "id",
-              "description": "",
+              "description": "<p>The unique identifier of the project item.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "node_id",
-              "description": ""
+              "description": "<p>The node ID of the project item.</p>"
             },
             {
               "type": "string",
               "name": "project_node_id",
-              "description": ""
+              "description": "<p>The node ID of the project that contains this item.</p>"
             },
             {
               "type": "string",
               "name": "content_node_id",
-              "description": "",
+              "description": "<p>The node ID of the content represented by this item.</p>",
               "isRequired": true
             },
             {
@@ -131790,19 +131790,19 @@
             {
               "type": "string",
               "name": "created_at",
-              "description": "",
+              "description": "<p>The time when the item was created.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "updated_at",
-              "description": "",
+              "description": "<p>The time when the item was last updated.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "archived_at",
-              "description": "",
+              "description": "<p>The time when the item was archived.</p>",
               "isRequired": true
             }
           ]
@@ -131945,23 +131945,23 @@
             {
               "type": "number",
               "name": "id",
-              "description": "",
+              "description": "<p>The unique identifier of the project item.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "node_id",
-              "description": ""
+              "description": "<p>The node ID of the project item.</p>"
             },
             {
               "type": "string",
               "name": "project_node_id",
-              "description": ""
+              "description": "<p>The node ID of the project that contains this item.</p>"
             },
             {
               "type": "string",
               "name": "content_node_id",
-              "description": "",
+              "description": "<p>The node ID of the content represented by this item.</p>",
               "isRequired": true
             },
             {
@@ -132113,19 +132113,19 @@
             {
               "type": "string",
               "name": "created_at",
-              "description": "",
+              "description": "<p>The time when the item was created.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "updated_at",
-              "description": "",
+              "description": "<p>The time when the item was last updated.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "archived_at",
-              "description": "",
+              "description": "<p>The time when the item was archived.</p>",
               "isRequired": true
             }
           ]
@@ -132211,23 +132211,23 @@
             {
               "type": "number",
               "name": "id",
-              "description": "",
+              "description": "<p>The unique identifier of the project item.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "node_id",
-              "description": ""
+              "description": "<p>The node ID of the project item.</p>"
             },
             {
               "type": "string",
               "name": "project_node_id",
-              "description": ""
+              "description": "<p>The node ID of the project that contains this item.</p>"
             },
             {
               "type": "string",
               "name": "content_node_id",
-              "description": "",
+              "description": "<p>The node ID of the content represented by this item.</p>",
               "isRequired": true
             },
             {
@@ -132379,19 +132379,19 @@
             {
               "type": "string",
               "name": "created_at",
-              "description": "",
+              "description": "<p>The time when the item was created.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "updated_at",
-              "description": "",
+              "description": "<p>The time when the item was last updated.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "archived_at",
-              "description": "",
+              "description": "<p>The time when the item was archived.</p>",
               "isRequired": true
             }
           ]
@@ -132477,23 +132477,23 @@
             {
               "type": "number",
               "name": "id",
-              "description": "",
+              "description": "<p>The unique identifier of the project item.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "node_id",
-              "description": ""
+              "description": "<p>The node ID of the project item.</p>"
             },
             {
               "type": "string",
               "name": "project_node_id",
-              "description": ""
+              "description": "<p>The node ID of the project that contains this item.</p>"
             },
             {
               "type": "string",
               "name": "content_node_id",
-              "description": "",
+              "description": "<p>The node ID of the content represented by this item.</p>",
               "isRequired": true
             },
             {
@@ -132645,19 +132645,19 @@
             {
               "type": "string",
               "name": "created_at",
-              "description": "",
+              "description": "<p>The time when the item was created.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "updated_at",
-              "description": "",
+              "description": "<p>The time when the item was last updated.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "archived_at",
-              "description": "",
+              "description": "<p>The time when the item was archived.</p>",
               "isRequired": true
             }
           ]
@@ -132719,19 +132719,19 @@
             {
               "type": "number",
               "name": "id",
-              "description": "",
+              "description": "<p>The unique identifier of the status update.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "node_id",
-              "description": "",
+              "description": "<p>The node ID of the status update.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "project_node_id",
-              "description": ""
+              "description": "<p>The node ID of the project that this status update belongs to.</p>"
             },
             {
               "type": "object",
@@ -132871,19 +132871,19 @@
             {
               "type": "string",
               "name": "created_at",
-              "description": "",
+              "description": "<p>The time when the status update was created.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "updated_at",
-              "description": "",
+              "description": "<p>The time when the status update was last updated.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "status",
-              "description": "",
+              "description": "<p>The current status.</p>",
               "enum": [
                 "INACTIVE",
                 "ON_TRACK",
@@ -132896,12 +132896,12 @@
             {
               "type": "string",
               "name": "start_date",
-              "description": ""
+              "description": "<p>The start date of the period covered by the update.</p>"
             },
             {
               "type": "string",
               "name": "target_date",
-              "description": ""
+              "description": "<p>The target date associated with the update.</p>"
             },
             {
               "type": "string or null",
@@ -132965,19 +132965,19 @@
             {
               "type": "number",
               "name": "id",
-              "description": "",
+              "description": "<p>The unique identifier of the status update.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "node_id",
-              "description": "",
+              "description": "<p>The node ID of the status update.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "project_node_id",
-              "description": ""
+              "description": "<p>The node ID of the project that this status update belongs to.</p>"
             },
             {
               "type": "object",
@@ -133117,19 +133117,19 @@
             {
               "type": "string",
               "name": "created_at",
-              "description": "",
+              "description": "<p>The time when the status update was created.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "updated_at",
-              "description": "",
+              "description": "<p>The time when the status update was last updated.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "status",
-              "description": "",
+              "description": "<p>The current status.</p>",
               "enum": [
                 "INACTIVE",
                 "ON_TRACK",
@@ -133142,12 +133142,12 @@
             {
               "type": "string",
               "name": "start_date",
-              "description": ""
+              "description": "<p>The start date of the period covered by the update.</p>"
             },
             {
               "type": "string",
               "name": "target_date",
-              "description": ""
+              "description": "<p>The target date associated with the update.</p>"
             },
             {
               "type": "string or null",
@@ -133303,19 +133303,19 @@
             {
               "type": "number",
               "name": "id",
-              "description": "",
+              "description": "<p>The unique identifier of the status update.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "node_id",
-              "description": "",
+              "description": "<p>The node ID of the status update.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "project_node_id",
-              "description": ""
+              "description": "<p>The node ID of the project that this status update belongs to.</p>"
             },
             {
               "type": "object",
@@ -133455,19 +133455,19 @@
             {
               "type": "string",
               "name": "created_at",
-              "description": "",
+              "description": "<p>The time when the status update was created.</p>",
               "isRequired": true
             },
             {
               "type": "string",
               "name": "updated_at",
-              "description": "",
+              "description": "<p>The time when the status update was last updated.</p>",
               "isRequired": true
             },
             {
               "type": "string or null",
               "name": "status",
-              "description": "",
+              "description": "<p>The current status.</p>",
               "enum": [
                 "INACTIVE",
                 "ON_TRACK",
@@ -133480,12 +133480,12 @@
             {
               "type": "string",
               "name": "start_date",
-              "description": ""
+              "description": "<p>The start date of the period covered by the update.</p>"
             },
             {
               "type": "string",
               "name": "target_date",
-              "description": ""
+              "description": "<p>The target date associated with the update.</p>"
             },
             {
               "type": "string or null",
